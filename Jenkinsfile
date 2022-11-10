@@ -3,7 +3,7 @@ node {
         checkout scm
     }
         stage ('build image') {
-        app = docker.build("alpine-docker:1.0")
+        app = docker.build("alpine-image:1.8")
         }
         
   }
